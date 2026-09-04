@@ -1,631 +1,266 @@
-# dsa-grind
-My journey of learning and practicing Data Structures and Algorithms through coding problems and optimized solutions.
+# DSA Interview Preparation
 
-🚀 Data Structures & Algorithms — DSA Practice
+> A focused practice workspace for a senior Java full-stack developer with 10 years of experience.
 
-Welcome to my Data Structures & Algorithms (DSA) Practice Repository.
+This repository is for interview-quality problem solving, not for collecting random solutions. Each solution should show clear reasoning, production-quality Java, correct complexity analysis, and awareness of edge cases.
 
-This repository contains my solutions, notes, approaches, and implementations for DSA problems. The goal is to build strong problem-solving skills, understand core data structures and algorithms, and prepare for coding interviews and competitive programming.
+## Interview Target
 
-🎯 Goals
-Build strong DSA fundamentals
-Improve problem-solving and logical thinking
-Learn multiple approaches to solve problems
-Understand time and space complexity
-Practice coding consistently
-Prepare for technical interviews
-Maintain a structured record of solved problems
-🗂️ DSA Roadmap
- Programming Fundamentals
- Time & Space Complexity
- Arrays
- Strings
- Searching
- Sorting
- Two Pointers
- Sliding Window
- Hashing
- Recursion
- Backtracking
- Linked List
- Stack
- Queue
- Deque
- Trees
- Binary Search Tree
- Heap / Priority Queue
- Greedy Algorithms
- Graphs
- Dynamic Programming
- Bit Manipulation
- Trie
- Segment Tree
- Fenwick Tree
- Disjoint Set Union
- Advanced Graph Algorithms
-📚 Problem List
-1. Arrays
-Easy
- Find Maximum and Minimum Element
- Find Second Largest Element
- Check if Array is Sorted
- Reverse an Array
- Remove Duplicates from Sorted Array
- Move Zeroes to End
- Left Rotate Array by One
- Left Rotate Array by K Positions
- Find Missing Number
- Find the Element That Appears Once
- Find Duplicate Element
- Count Frequency of Elements
- Find Leaders in an Array
- Maximum Consecutive Ones
- Union of Two Arrays
- Intersection of Two Arrays
-Medium
- Two Sum
- Three Sum
- Four Sum
- Maximum Subarray Sum
- Best Time to Buy and Sell Stock
- Rearrange Array Elements by Sign
- Next Permutation
- Majority Element
- Majority Element II
- Kadane's Algorithm
- Longest Consecutive Sequence
- Set Matrix Zeroes
- Rotate Matrix
- Spiral Matrix
- Merge Overlapping Intervals
- Merge Two Sorted Arrays
- Find the Duplicate Number
- Product of Array Except Self
- Subarray Sum Equals K
-Hard
- Maximum Product Subarray
- Trapping Rain Water
- First Missing Positive
- Merge K Sorted Arrays
- Count Inversions
- Reverse Pairs
- Maximum Subarray Sum with Constraints
-2. Strings
-Easy
- Reverse a String
- Check Palindrome
- Count Vowels and Consonants
- Count Character Frequency
- Remove Duplicate Characters
- Check Anagram
- Find First Non-Repeating Character
- Find First Repeating Character
- Convert Case
- Check String Rotation
-Medium
- Longest Substring Without Repeating Characters
- Longest Palindromic Substring
- Longest Common Prefix
- Group Anagrams
- String Compression
- Minimum Window Substring
- Valid Parentheses
- Decode String
- Roman Number to Integer
- Integer to Roman
- String to Integer
- Multiply Strings
- Find All Anagrams in a String
-Hard
- Regular Expression Matching
- Wildcard Matching
- Edit Distance
- Minimum Window Substring
- Palindrome Partitioning II
-3. Searching
- Linear Search
- Binary Search
- Binary Search on Answer
- First Occurrence
- Last Occurrence
- Count Occurrences
- Search Insert Position
- Search in Rotated Sorted Array
- Search in Rotated Sorted Array II
- Find Minimum in Rotated Sorted Array
- Find Peak Element
- Square Root of a Number
- Find Kth Missing Positive Number
- Median of Two Sorted Arrays
-4. Sorting
- Bubble Sort
- Selection Sort
- Insertion Sort
- Merge Sort
- Quick Sort
- Heap Sort
- Counting Sort
- Radix Sort
- Bucket Sort
- Sort 0s, 1s and 2s
- Merge Two Sorted Arrays
- Kth Largest Element
- Kth Smallest Element
- Sort Characters by Frequency
-5. Two Pointers
- Two Sum II
- Remove Duplicates
- Remove Element
- Move Zeroes
- Reverse String
- Valid Palindrome
- Container With Most Water
- Three Sum
- Four Sum
- Trapping Rain Water
-6. Sliding Window
- Maximum Sum Subarray of Size K
- Maximum Number of Vowels in a Substring
- Longest Substring Without Repeating Characters
- Longest Repeating Character Replacement
- Minimum Size Subarray Sum
- Permutation in String
- Find All Anagrams in a String
- Minimum Window Substring
- Sliding Window Maximum
- Fruit Into Baskets
-7. Hashing
- Frequency Counter
- Two Sum
- Contains Duplicate
- Group Anagrams
- Longest Consecutive Sequence
- Subarray Sum Equals K
- Longest Subarray with Sum K
- Count Number of Subarrays
- Find Duplicate Number
- Isomorphic Strings
- Happy Number
- 4Sum II
-8. Recursion
- Print Numbers 1 to N
- Print Numbers N to 1
- Factorial
- Fibonacci
- Sum of N Numbers
- Reverse an Array
- Reverse a String
- Check Palindrome
- Power of a Number
- Greatest Common Divisor
- Recursive Binary Search
- Generate Subsequences
- Generate Subsets
-9. Backtracking
- Generate All Subsets
- Generate All Permutations
- Combination Sum
- Combination Sum II
- Letter Combinations of Phone Number
- N-Queens
- Sudoku Solver
- Rat in a Maze
- Word Search
- Palindrome Partitioning
- Generate Parentheses
- Restore IP Addresses
-10. Linked List
-Fundamentals
- Create Linked List
- Insert at Beginning
- Insert at End
- Insert at Position
- Delete Node
- Search Element
- Reverse Linked List
- Find Length
-Important Problems
- Find Middle of Linked List
- Detect Cycle
- Find Starting Point of Cycle
- Remove Nth Node from End
- Merge Two Sorted Lists
- Remove Duplicates
- Palindrome Linked List
- Add Two Numbers
- Intersection of Two Linked Lists
- Reverse Nodes in K Group
- Rotate Linked List
- Sort Linked List
- Flatten Linked List
- Copy List with Random Pointer
-11. Stack
- Implement Stack Using Array
- Implement Stack Using Linked List
- Implement Queue Using Stack
- Valid Parentheses
- Min Stack
- Next Greater Element
- Next Smaller Element
- Previous Greater Element
- Previous Smaller Element
- Daily Temperatures
- Largest Rectangle in Histogram
- Stock Span Problem
- Evaluate Reverse Polish Notation
- Infix to Postfix
- Infix to Prefix
- Postfix Evaluation
- Remove K Digits
- Decode String
-12. Queue & Deque
- Implement Queue Using Array
- Implement Queue Using Linked List
- Implement Circular Queue
- Implement Queue Using Stacks
- Implement Stack Using Queues
- Design Deque
- Sliding Window Maximum
- First Negative Number in Every Window
- Rotten Oranges
- Generate Binary Numbers
- Number of Recent Calls
-13. Binary Trees
-Traversals
- Preorder Traversal
- Inorder Traversal
- Postorder Traversal
- Level Order Traversal
- Iterative Preorder
- Iterative Inorder
- Iterative Postorder
- Zigzag Traversal
- Boundary Traversal
- Vertical Order Traversal
- Top View
- Bottom View
- Left View
- Right View
-Tree Problems
- Maximum Depth
- Minimum Depth
- Check Balanced Binary Tree
- Diameter of Binary Tree
- Maximum Path Sum
- Same Tree
- Symmetric Tree
- Invert Binary Tree
- Lowest Common Ancestor
- Root to Node Path
- Serialize and Deserialize Binary Tree
- Construct Tree from Inorder and Preorder
- Construct Tree from Inorder and Postorder
- Flatten Binary Tree
- Count Complete Tree Nodes
- Children Sum Property
-14. Binary Search Tree
- Search in BST
- Insert into BST
- Delete from BST
- Find Minimum
- Find Maximum
- Validate BST
- Kth Smallest Element
- Kth Largest Element
- Lowest Common Ancestor in BST
- Inorder Successor
- Inorder Predecessor
- Convert Sorted Array to BST
- BST Iterator
- Recover Binary Search Tree
- Two Sum in BST
-15. Heap / Priority Queue
- Implement Min Heap
- Implement Max Heap
- Heapify
- Heap Sort
- Kth Largest Element
- Kth Smallest Element
- Top K Frequent Elements
- K Closest Points
- Merge K Sorted Arrays
- Merge K Sorted Lists
- Find Median from Data Stream
- Task Scheduler
- Minimum Cost to Connect Ropes
- Reorganize String
-16. Greedy Algorithms
- Assign Cookies
- Fractional Knapsack
- Activity Selection
- Job Sequencing
- Minimum Platforms
- Jump Game
- Jump Game II
- Gas Station
- Candy
- Lemonade Change
- N Meetings in One Room
- Minimum Number of Coins
- Partition Labels
- Non-overlapping Intervals
- Meeting Rooms
-17. Graphs
-Fundamentals
- Graph Representation
- Adjacency Matrix
- Adjacency List
- BFS
- DFS
- Connected Components
- Number of Islands
- Flood Fill
- Clone Graph
-Cycle Detection
- Cycle Detection in Undirected Graph — BFS
- Cycle Detection in Undirected Graph — DFS
- Cycle Detection in Directed Graph
- Detect Cycle Using Kahn's Algorithm
-Shortest Path
- Shortest Path in Unweighted Graph
- Dijkstra's Algorithm
- Bellman-Ford Algorithm
- Floyd-Warshall Algorithm
- Shortest Path in DAG
- Cheapest Flights Within K Stops
-MST
- Prim's Algorithm
- Kruskal's Algorithm
- Minimum Spanning Tree
- Disjoint Set Union
-Topological Sort
- Topological Sort — DFS
- Topological Sort — BFS
- Course Schedule
- Course Schedule II
- Alien Dictionary
-Advanced
- Bridges in Graph
- Articulation Points
- Strongly Connected Components
- Kosaraju's Algorithm
- Tarjan's Algorithm
- Bipartite Graph
- Word Ladder
- Word Ladder II
-18. Dynamic Programming
-1D DP
- Climbing Stairs
- Frog Jump
- Frog Jump with K Distance
- House Robber
- House Robber II
- Maximum Sum of Non-Adjacent Elements
- Decode Ways
-2D DP
- Unique Paths
- Unique Paths II
- Minimum Path Sum
- Triangle
- Ninja Training
- Cherry Pickup
- Dungeon Game
-Knapsack
- 0/1 Knapsack
- Unbounded Knapsack
- Subset Sum
- Partition Equal Subset Sum
- Count Subsets with Given Sum
- Target Sum
- Coin Change
- Coin Change II
-Subsequences
- Longest Increasing Subsequence
- Longest Common Subsequence
- Longest Common Substring
- Longest Palindromic Subsequence
- Shortest Common Supersequence
- Distinct Subsequences
- Edit Distance
-Partition DP
- Matrix Chain Multiplication
- Burst Balloons
- Palindrome Partitioning
- Boolean Parenthesization
- Minimum Cost to Cut a Stick
-19. Bit Manipulation
- Check Odd / Even
- Check Power of Two
- Count Set Bits
- Set a Bit
- Clear a Bit
- Toggle a Bit
- Find Unique Element
- Find Two Unique Elements
- XOR from 1 to N
- Missing Number Using XOR
- Power Set Using Bits
- Reverse Bits
- Divide Two Integers Using Bits
-20. Trie
- Implement Trie
- Insert Word
- Search Word
- Starts With Prefix
- Delete Word
- Longest Word with All Prefixes
- Count Distinct Substrings
- Maximum XOR of Two Numbers
- Word Search Using Trie
- Replace Words
-21. Segment Tree
- Build Segment Tree
- Range Sum Query
- Range Minimum Query
- Point Update
- Range Update
- Lazy Propagation
- Maximum Subarray Query
-22. Fenwick Tree / Binary Indexed Tree
- Build Fenwick Tree
- Point Update
- Prefix Sum Query
- Range Sum Query
- Count Inversions Using Fenwick Tree
- Range Update and Point Query
-23. Disjoint Set Union
- Implement DSU
- Union by Rank
- Union by Size
- Path Compression
- Number of Connected Components
- Detect Cycle
- Kruskal's Algorithm
- Number of Provinces
- Accounts Merge
- Most Stones Removed
-24. Advanced Algorithms
- KMP String Matching
- Rabin-Karp
- Z Algorithm
- Manacher's Algorithm
- Sieve of Eratosthenes
- Euclidean Algorithm
- Extended Euclidean Algorithm
- Fast Exponentiation
- Modular Arithmetic
- Modular Inverse
- Topological Sorting
- Strongly Connected Components
- Bridges
- Articulation Points
-📊 Progress Tracker
-Topic	Problems	Completed
-Arrays	40+	0
-Strings	30+	0
-Searching	15+	0
-Sorting	15+	0
-Two Pointers	10+	0
-Sliding Window	10+	0
-Hashing	10+	0
-Recursion	15+	0
-Backtracking	12+	0
-Linked List	25+	0
-Stack	20+	0
-Queue	15+	0
-Trees	30+	0
-BST	15+	0
-Heap	15+	0
-Greedy	15+	0
-Graphs	40+	0
-Dynamic Programming	40+	0
-Bit Manipulation	15+	0
-Trie	10+	0
-Segment Tree	7+	0
-Fenwick Tree	5+	0
-DSU	10+	0
-Advanced Algorithms	15+	0
-💻 Solution Format
+| Area | Preparation outcome | Status |
+| --- | --- | --- |
+| Data structures and algorithms | Solve medium problems in 25-35 minutes | [ ] |
+| Problem-solving communication | Clarify requirements, explain trade-offs, and verify with examples | [ ] |
+| Java implementation | Use the right collection, comparator, API, and class design | [ ] |
+| Code quality | Write readable, testable, defensive code | [ ] |
+| Senior-level discussion | Explain scalability, failure modes, and alternatives | [ ] |
+| Mock interviews | Complete 6 timed sessions | [ ] |
 
-For every problem, I try to maintain the following structure:
+## Working Principles
 
-Problem
-│
-├── Problem Statement
-├── Approach
-├── Algorithm
-├── Code
-├── Time Complexity
-└── Space Complexity
+1. Understand the pattern before memorizing the solution.
+2. Start with a brute-force approach, then improve it deliberately.
+3. State invariants and complexity before writing the final code.
+4. Test empty input, one element, duplicates, negative values, overflow, and boundary indexes.
+5. Re-solve failed problems after 24 hours and again after 7 days.
+6. Prefer 120 well-understood problems over 500 copied solutions.
 
+## Eight-Week Plan
 
-Example:
+| Week | Focus | Minimum outcome | Done |
+| ---: | --- | --- | --- |
+| 1 | Arrays, strings, hashing | 12 problems and a Java collections review | [ ] |
+| 2 | Two pointers, sliding window, prefix sums | 12 problems and pattern notes | [ ] |
+| 3 | Sorting, binary search, intervals | 10 problems and reusable templates | [ ] |
+| 4 | Linked lists, stacks, queues, monotonic stack | 12 problems and implementations from scratch | [ ] |
+| 5 | Trees, BST, heaps, priority queues | 12 problems and traversal templates | [ ] |
+| 6 | Graph traversal, topological sort, shortest path | 12 problems and graph representation notes | [ ] |
+| 7 | Recursion, backtracking, greedy, dynamic programming | 12 problems and state-transition notes | [ ] |
+| 8 | Mixed revision and mock interviews | 6 mocks, error review, and final weak-area revision | [ ] |
 
-Problem: Two Sum
+## Daily Practice Log
 
-Approach:
-Use a HashMap to store previously visited elements.
+Copy this section for each session. Keep the latest session at the top.
 
-Time Complexity:
-O(n)
+### YYYY-MM-DD | Topic: | Duration:  minutes
 
-Space Complexity:
-O(n)
+| Step | Notes |
+| --- | --- |
+| Problem(s) |  |
+| Pattern identified |  |
+| Initial approach |  |
+| Final approach |  |
+| Time / space complexity |  |
+| Edge cases tested |  |
+| What I learned |  |
+| Follow-up problem |  |
+| Solution links |  |
 
-🧠 Complexity Cheat Sheet
-Algorithm / Data Structure	Average Time
-Array Access	O(1)
-Array Search	O(n)
-Binary Search	O(log n)
-HashMap Search	O(1)
-Stack Push/Pop	O(1)
-Queue Enqueue/Dequeue	O(1)
-Linked List Search	O(n)
-Linked List Insert	O(1)
-BST Search	O(log n)
-Heap Insert	O(log n)
-Heap Delete	O(log n)
-Merge Sort	O(n log n)
-Quick Sort	O(n log n) average
-BFS	O(V + E)
-DFS	O(V + E)
-Dijkstra	O((V + E) log V)
-📁 Repository Structure
-DSA/
-│
-├── Arrays/
-├── Strings/
-├── Searching/
-├── Sorting/
-├── Two-Pointers/
-├── Sliding-Window/
-├── Hashing/
-├── Recursion/
-├── Backtracking/
-├── Linked-List/
-├── Stack/
-├── Queue/
-├── Trees/
-├── BST/
-├── Heap/
-├── Greedy/
-├── Graphs/
-├── Dynamic-Programming/
-├── Bit-Manipulation/
-├── Trie/
-├── Segment-Tree/
-├── Fenwick-Tree/
-├── DSU/
-└── Advanced-Algorithms/
+Daily checklist:
 
-📈 Daily Practice
+- [ ] Clarify inputs, outputs, constraints, and examples
+- [ ] Identify a brute-force solution
+- [ ] Explain the optimized pattern before coding
+- [ ] Implement in Java without relying on an IDE shortcut
+- [ ] Test normal, boundary, and adversarial cases
+- [ ] Record complexity and one improvement
+- [ ] Mark the problem as `Solved`, `Review`, or `Blocked`
 
-My practice routine:
+## Pattern Checklist
 
- Learn one new DSA concept
- Solve 2–5 problems
- Analyze time and space complexity
- Review previously solved problems
- Optimize at least one solution
- Add clean solutions to this repository
-🏆 Milestones
- 50 Problems Solved
- 100 Problems Solved
- 200 Problems Solved
- 300 Problems Solved
- 500 Problems Solved
- Complete Core DSA
- Complete Advanced DSA
- Start Mock Interviews
- Crack First Coding Interview 🎯
-⭐ Progress
+### Arrays, Strings, and Hashing
 
-Problems Solved: 0
+| Done | Pattern | Representative practice |
+| --- | --- | --- |
+| [ ] | Frequency map / set | Two Sum, Contains Duplicate, Group Anagrams |
+| [ ] | Prefix sum | Subarray Sum Equals K, Range Sum Query |
+| [ ] | Difference array | Range updates, meeting-room capacity |
+| [ ] | Kadane's algorithm | Maximum Subarray, Maximum Product Subarray |
+| [ ] | Matrix traversal | Spiral Matrix, Rotate Image, Set Matrix Zeroes |
+| [ ] | In-place manipulation | Move Zeroes, Sort Colors, Merge Sorted Array |
+| [ ] | String window | Longest Substring, Minimum Window Substring |
+| [ ] | Character counting | Valid Anagram, Find All Anagrams |
 
-Target: 500+
+### Two Pointers, Windows, and Intervals
 
-Status: 🟢 In Progress
+| Done | Pattern | Representative practice |
+| --- | --- | --- |
+| [ ] | Opposite-direction pointers | Two Sum II, Valid Palindrome, Container With Most Water |
+| [ ] | Fast and slow pointers | Linked-list cycle, middle node, happy number |
+| [ ] | Fixed-size window | Maximum Sum Subarray of Size K |
+| [ ] | Variable-size window | Minimum Size Subarray Sum, Fruit Into Baskets |
+| [ ] | Merge intervals | Merge Intervals, Insert Interval |
+| [ ] | Interval scheduling | Meeting Rooms, Non-overlapping Intervals |
 
-📌 Note
+### Search and Sorting
 
-This repository is primarily for learning and practice. Solutions may be
+| Done | Pattern | Representative practice |
+| --- | --- | --- |
+| [ ] | Binary search on sorted data | Search Insert Position, First and Last Position |
+| [ ] | Binary search on answer | Capacity to Ship, Split Array Largest Sum |
+| [ ] | Divide and conquer | Merge Sort, Count Inversions |
+| [ ] | Heap selection | Kth Largest Element, Top K Frequent Elements |
+| [ ] | Custom ordering | Largest Number, Sort Characters by Frequency |
+
+### Linked List, Stack, and Queue
+
+| Done | Pattern | Representative practice |
+| --- | --- | --- |
+| [ ] | Pointer rewiring | Reverse List, Merge Two Sorted Lists |
+| [ ] | Sentinel node | Remove Nth Node, Merge Lists |
+| [ ] | Monotonic stack | Daily Temperatures, Next Greater Element |
+| [ ] | Stack parsing | Valid Parentheses, Evaluate RPN |
+| [ ] | Deque window | Sliding Window Maximum |
+| [ ] | Design structure | Min Stack, LRU Cache |
+
+### Trees, Heaps, and Graphs
+
+| Done | Pattern | Representative practice |
+| --- | --- | --- |
+| [ ] | DFS recursion | Maximum Depth, Diameter, Path Sum |
+| [ ] | BFS by level | Level Order, Zigzag Traversal, Word Ladder |
+| [ ] | BST invariant | Validate BST, Kth Smallest, LCA |
+| [ ] | Heap / priority queue | Merge K Lists, Median from Data Stream |
+| [ ] | Graph BFS / DFS | Number of Islands, Clone Graph |
+| [ ] | Topological ordering | Course Schedule, Alien Dictionary |
+| [ ] | Shortest path | Dijkstra, 0-1 BFS, Bellman-Ford |
+| [ ] | Union-find | Number of Provinces, Accounts Merge |
+
+### Recursion, Greedy, and Dynamic Programming
+
+| Done | Pattern | Representative practice |
+| --- | --- | --- |
+| [ ] | Backtracking | Subsets, Permutations, Combination Sum |
+| [ ] | Greedy invariant | Jump Game, Gas Station, Task Scheduling |
+| [ ] | 1D state | Climbing Stairs, House Robber, Decode Ways |
+| [ ] | Grid state | Unique Paths, Minimum Path Sum, Word Search |
+| [ ] | Knapsack state | Coin Change, Partition Equal Subset Sum |
+| [ ] | Sequence state | LIS, LCS, Edit Distance |
+
+## Java Interview Checklist
+
+| Done | Topic | What to be able to explain |
+| --- | --- | --- |
+| [ ] | `ArrayList` vs `LinkedList` | Access, insertion cost, memory, and practical choice |
+| [ ] | `HashMap` and `HashSet` | Hashing, collisions, resizing, `equals`, and `hashCode` |
+| [ ] | `TreeMap` and `TreeSet` | Ordering, comparator behavior, and logarithmic operations |
+| [ ] | `PriorityQueue` | Min/max heap behavior and custom comparators |
+| [ ] | `ArrayDeque` | Stack and queue usage without legacy `Stack` |
+| [ ] | Sorting APIs | `Comparator`, stable sorting, null handling, and overflow-safe comparison |
+| [ ] | Generics | Type safety, wildcards, and reusable data-structure APIs |
+| [ ] | Streams and lambdas | When they improve clarity and when a loop is better in an interview |
+| [ ] | Immutability | Defensive copies, final fields, and safe object design |
+| [ ] | Integer handling | `long` for sums/products and avoiding comparator subtraction overflow |
+| [ ] | Testing | JUnit tests for happy paths, boundaries, duplicates, and invalid input |
+
+## Senior-Level Follow-Up Questions
+
+For each important problem, answer at least two of these:
+
+- What changes if the input does not fit in memory?
+- Can the solution be streamed or processed incrementally?
+- What is the concurrency model if multiple requests use this structure?
+- How would you make the API immutable or thread-safe?
+- What happens under worst-case hash collisions or skewed input?
+- How would you instrument, test, and monitor this in production?
+- What trade-off changes if latency matters more than memory?
+- Which part would you extract into a reusable service or library?
+
+## Problem Register
+
+| # | Problem | Pattern | Difficulty | Status | Date | Solution |
+| ---: | --- | --- | --- | --- | --- | --- |
+| 1 |  |  | Easy / Medium / Hard | Planned |  |  |
+| 2 |  |  | Easy / Medium / Hard | Planned |  |  |
+| 3 |  |  | Easy / Medium / Hard | Planned |  |  |
+
+Status values: `Planned` | `In Progress` | `Solved` | `Review` | `Blocked`
+
+## Review Queue
+
+| Review date | Problem | Failure reason | Correct pattern | Re-solved |
+| --- | --- | --- | --- | --- |
+|  |  |  |  | [ ] |
+
+Recommended review intervals: same day, 24 hours, 7 days, and 30 days.
+
+## Weekly Review
+
+### Week of YYYY-MM-DD
+
+| Metric | Result |
+| --- | --- |
+| Problems attempted |  |
+| Problems solved without help |  |
+| Problems needing review |  |
+| Mock interview score |  |
+| Strongest pattern |  |
+| Weakest pattern |  |
+| Next week's focus |  |
+
+- [ ] I can explain the main patterns without notes.
+- [ ] I re-solved every blocked problem.
+- [ ] I completed one timed mixed set.
+- [ ] I updated the problem register and review queue.
+- [ ] I wrote one senior-level follow-up for each major topic.
+
+## Solution Template
+
+Create one Markdown note per problem using this format.
+
+```markdown
+# Problem Name
+
+- Difficulty:
+- Pattern:
+- Source:
+- Status:
+
+## Clarification
+
+## Examples and Edge Cases
+
+## Brute Force
+
+## Optimized Approach
+
+## Correctness Invariant
+
+## Java Solution
+
+## Complexity
+
+- Time:
+- Space:
+
+## Follow-up Discussion
+
+## Mistake and Review Date
+```
+
+## Definition of Ready
+
+- [ ] Solve 2 unseen medium problems consecutively within 60 minutes.
+- [ ] Explain the pattern, invariant, and complexity while coding.
+- [ ] Implement common structures using Java collections and custom classes.
+- [ ] Complete 6 mock interviews with clear communication.
+- [ ] Re-solve all problems marked `Review` or `Blocked`.
+- [ ] Discuss at least one scalability or production follow-up per mock.
+
+## Suggested Repository Layout
+
+```text
+DSA-Interview/
+|-- README.md
+|-- arrays-strings/
+|-- hashing-patterns/
+|-- two-pointers-sliding-window/
+|-- search-sort-intervals/
+|-- linked-list-stack-queue/
+|-- trees-heaps/
+|-- graphs/
+|-- recursion-greedy-dp/
+|-- java-reference/
+|-- solutions/
+|-- mocks/
+`-- review-notes/
+```
